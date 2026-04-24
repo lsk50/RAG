@@ -1,7 +1,7 @@
 # --- 强制修复 Protobuf 版本冲突 ---
 import subprocess
 import sys
-
+import streamlit as st
 # 如果 protobuf 版本高于 4.0，强制降级到 3.20.3
 subprocess.check_call([sys.executable, "-m", "pip", "install", "protobuf==3.20.3"])
 
