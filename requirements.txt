@@ -7,4 +7,3 @@ langchain-community
 langchain-chroma
 chromadb
 dashscope
-sk-f02b54a9515e4c06be85d341e834c23d
