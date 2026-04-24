@@ -1,19 +1,9 @@
-# Python 版本
-python>=3.11
-
-# 核心依赖包
-streamlit>=1.30.0
-protobuf>=4.21.0  # 升级到较新版本，避免与 langchain 冲突
-python-docx>=0.8.11
-
-# LangChain 系列包
-langchain>=0.1.0
-langchain-core>=0.1.0
-langchain-community>=0.1.0
-langchain-chroma>=0.1.0
-
-# 向量数据库
-chromadb>=1.0.0
-
-# 嵌入模型
-dashscope>=1.14.0
+streamlit
+python-docx
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+chromadb
+dashscope
+sk-f02b54a9515e4c06be85d341e834c23d
