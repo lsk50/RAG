@@ -4,7 +4,7 @@ import streamlit as st
 import config_data as config
 
 # 标题
-st.title("智能客服")
+st.title("离散生命语言组学系统")
 st.divider()            # 分隔符
 
 if "message" not in st.session_state:
