@@ -30,6 +30,10 @@ for message in st.session_state["message"]:
 # 在页面最下方提供用户输入栏
 prompt = st.chat_input()
 
+# 每次刷新完在屏幕上显示完整的对话记录
+for message in st.session_state["message"]:
+    st.chat_message(message["role"]).write(message["content"])
+
 if prompt:
 
     # 在页面输出用户的提问
