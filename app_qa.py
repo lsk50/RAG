@@ -24,13 +24,13 @@ if "message" not in st.session_state:
 if "rag" not in st.session_state:
     st.session_state["rag"] = RagService()
 
-for message in st.session_state["message"]:
-    st.chat_message(message["role"]).write(message["content"])
+
 
 # 在页面最下方提供用户输入栏
 prompt = st.chat_input()
 
-
+for message in st.session_state["message"]:
+    st.chat_message(message["role"]).write(message["content"])
 
 if prompt:
 
