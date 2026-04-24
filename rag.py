@@ -7,7 +7,7 @@
 
 from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough,RunnableWithMessageHistory, RunnableLambda
+from langchain_core.runnables import RunnablePassthrough, RunnableWithMessageHistory, RunnableLambda
 from file_history_store import get_history
 from vector_stores import VectorStoreService
 from langchain_community.embeddings import DashScopeEmbeddings

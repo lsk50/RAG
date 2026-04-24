@@ -83,7 +83,7 @@ class KnowledgeBaseService(object):
             "source": filename,
             # 2025-01-01 10:00:00
             "create_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "operator": "小孔",
+            "operator": "孔令帅",
         }
 
         self.chroma.add_texts(      # 内容就加载到向量库中了
